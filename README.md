@@ -107,3 +107,7 @@ CHANGES.md lists every fix made to the harness during testing, with its reason. 
 - Cost is the console's recorded charge (`cost.total_usd`), which it says is not the NDI service's own tariff. It is null until the charge settles.
 - The service reuses an earlier parse of the same file (`execution: "reused"` in the job's cost lines), which is cheaper and faster. The test 6 summary's `fresh_parse` block holds first-time figures; quote those for cold-start latency and cost. Every fixture parsed once stays reusable.
 - The console limits requests per minute per account. The harness waits out 429s, so `batch_wall_s` includes that throttling.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
