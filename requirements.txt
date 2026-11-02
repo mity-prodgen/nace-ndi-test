@@ -1,0 +1,8 @@
+nace-sdk==0.4.0
+anthropic
+httpx
+reportlab
+openpyxl
+pypdf
+pillow
+google-cloud-documentai

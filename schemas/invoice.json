@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "invoice_number": {
+      "type": "string"
+    },
+    "vendor_name": {
+      "type": "string"
+    },
+    "invoice_date": {
+      "type": "string",
+      "description": "ISO date YYYY-MM-DD"
+    },
+    "total": {
+      "type": "number",
+      "description": "Total due including tax"
+    },
+    "line_item_count": {
+      "type": "integer"
+    }
+  }
+}

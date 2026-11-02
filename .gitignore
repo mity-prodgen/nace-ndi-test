@@ -1,0 +1,7 @@
+results/
+.venv/
+__pycache__/
+.claude/
+ndi-harness/
+ndi-harness.zip
+.DS_Store
