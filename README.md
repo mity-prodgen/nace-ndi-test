@@ -4,6 +4,8 @@ Hands-on tests of Nace Document Intelligence (NDI): does it say "not found" when
 
 **Results:** [RESULTS.md](RESULTS.md) compares NDI, Claude Opus 5.5 and Google Document AI. It's built by `python make_results.py` from the run reports in [reports/](reports/).
 
+`make_results.py` reads `results/<run>/report.md`, and `results/` isn't committed. To rebuild RESULTS.md from your own runs, run the tests below first, then put your run folders in the script's `RUNS` list. Each NDI test group must come from a run that covers it.
+
 ## Setup
 
 Tested on Python 3.13 (macOS).
