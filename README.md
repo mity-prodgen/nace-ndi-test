@@ -2,6 +2,8 @@
 
 Hands-on tests of Nace Document Intelligence (NDI): does it say "not found" when a field is missing, cite the right copy of a repeated value, split a messy packet, resist prompt injection, and hold up on cost and latency? Every test document is generated here, so the ground truth is exact.
 
+**Results:** [RESULTS.md](RESULTS.md) compares NDI, Claude Opus 5.5 and Google Document AI. It's built by `python make_results.py` from the run reports in [reports/](reports/).
+
 ## Setup
 
 Tested on Python 3.13 (macOS).
